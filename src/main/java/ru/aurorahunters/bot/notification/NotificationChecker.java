@@ -12,7 +12,7 @@ public class NotificationChecker {
 
     /** Check if one, two, three or none of parameters is true. */
     public boolean checkNotification(List<SolarWindData> lastFiveMin) {
-        return isDensityHigh(lastFiveMin) || isSpeedHigh(lastFiveMin) || isBzHigh(lastFiveMin);
+        return isBzHigh(lastFiveMin);
     }
 
     /**
